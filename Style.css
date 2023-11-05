@@ -1,0 +1,63 @@
+/* **********UNIVERSAL SELECTOR ****************** */
+
+/* *{
+    color: red;
+} */
+
+/* ***************** TYPE SELECTOR *************** */
+
+/* h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+}
+span{
+    color: white;
+    background-color: black;
+}
+p{
+    
+    color: red;
+} */
+
+/* **************** CLASS SELECTOR *************** */
+
+/* .interest{
+    color: blue;
+} */
+
+/* *************** ID SELECTORS******************* */
+
+/* #my_span{
+    color: green;
+}
+/* span{
+    color: orange
+
+} */ 
+
+/* *************** CHIKLD SELECTORSD *************** */
+
+/* span > p{
+    color: aliceblue;
+    background-color: blueviolet;
+} */
+
+/* *************** DESCENDENT SELECTOR ************* */
+
+/* div p{
+    color: red;
+    
+} */
+
+/* **************** ADJACENT SIBLING SELECTORS ***** */
+
+/* h1+p{
+    color: white;
+    background-color: black;
+} */
+
+/* *************** GENERAL SIBLING SELECTORS ******** */
+
+h1~p{
+    color: chartreuse;
+}
